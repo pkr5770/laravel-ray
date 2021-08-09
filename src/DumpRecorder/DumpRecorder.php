@@ -79,4 +79,9 @@ class DumpRecorder
 
         return new BaseHtmlDumper();
     }
+
+    public function reset()
+    {
+        $this->dumps = [];
+    }
 }
